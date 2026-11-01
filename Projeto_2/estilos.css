@@ -1,0 +1,43 @@
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: darkblue;
+    font-family: Georgia;
+}
+
+h2 {
+    color: orange;
+    font-family: Times New Roman;
+}
+
+.destaque {
+    background-color: lightblue;
+    margin: 10px;
+	display: inline; /* Faz o fundo ajustar-se apenas à largura do texto*/
+}
+
+
+/*
+
+1. Desafio Técnico:
+A regra mais difícil de aplicar foi a classe .destaque,
+porque tive alguma dificuldade em perceber como se aplicava
+a um parágrafo. Consegui resolver ao colocar class="destaque"
+na tag <p> do HTML.
+
+2. Correção de Sintaxe:
+Durante os testes no browser, reparei que a cor de fundo
+não aparecia como queria. Voltei ao Notepad++ e percebi
+que me tinha esquecido de colocar um ponto e vírgula (;)
+no final de uma regra CSS. Depois de corrigir, o CSS
+funcionou corretamente.
+
+3. Autoria:
+O atributo src serve para indicar o caminho da imagem
+que queremos colocar na página HTML. Neste caso, usei
+src="lupin.jpg" para mostrar a imagem da série Lupin.
+
+*/
